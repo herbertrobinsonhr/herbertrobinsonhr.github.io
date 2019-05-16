@@ -7,7 +7,7 @@
             var url = new URL(urlString);
             return url.searchParams.get(param);
         }
-        window.location.href = "https://search.yahoo.com/?q=" + encodeURIComponent(getParam(window.location.href, 'q'));
+        window.location.href = "https://search.yahoo.com/search/?q=" + encodeURIComponent(getParam(window.location.href, 'q'));
     </script>
 </head>
 <body>
